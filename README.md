@@ -6,7 +6,6 @@ In this project, we are exploring the concept of "star" ratings for Marriott Hot
 
 For this analysis, we leveraged a database containing data on various hotels across the United States, with a focus on Marriott hotels. The dataset includes features such as location, amenities, staff services, and facilities, along with customer ratings and star classifications (ranging from 1 star to 5 stars).
 
-![Initial DataFrame](Images/hotel_data_overview.png)
 
 The analysis aims to answer the following key questions:
 - What key features differentiate a 2-star hotel from a 5-star hotel in the Marriott chain?
@@ -26,14 +25,13 @@ The dataset we are working with contains hotel attributes, including location, s
 **Exploratory Data Analysis (EDA):**  
 We began by visualizing the distribution of hotels by rating and analyzing key features for each star category.
 
-![Hotel Rating Distribution](Images/hotel_rating_distribution.png)
+
 
 From this initial analysis, we observed that Marriott hotels in large urban cities (like New York, Los Angeles, and Miami) tended to have 4 or 5-star ratings, while hotels located near airports or in smaller cities had ratings closer to 2 or 3 stars.
 
 **Feature Importance Analysis:**  
 To understand which features were most important for predicting a hotel's star rating, we performed a feature importance analysis using machine learning models like Random Forest.
 
-![Feature Importance](Images/feature_importance.png)
 
 The top features identified for improving star ratings include:
 - **Amenities:** The presence of high-end amenities like steam rooms, wine/Champagne services, and laundry facilities.
@@ -61,11 +59,6 @@ Based on our analysis, we recommend that Marriott focus on improving the followi
 
 By implementing these changes, Marriott can likely raise the quality of its 2-3 star hotels and potentially increase their ratings to the 4-5 star range, improving both guest satisfaction and the brand’s overall image.
 
-Key changes made:
-Coloring: Each section title has been colored using HTML <font color="colorname"> tags, where I used colors like blue, green, red, purple, orange, and teal for variation.
-Underlining: I used the <u> tag within the title elements to underline the section headings.
-Markdown Structure: The rest of the structure uses standard Markdown syntax, such as headings (#), images (![alt text](URL)), and bullet points.
-You can adjust the colors as you like by changing the color names in the <font> tags, and you can also modify the structure and content as per your needs. Let me know if you'd like any other tweaks!
 
 
 
